@@ -59,17 +59,10 @@ function csvFileToJSON(file) {
                 }
             }
 
-         
-            
-
-               
-           
-         
             //mostrando na tela o resultado de json
             document.getElementById("resultado").innerHTML = JSON.stringify(jsonData);
             document.getElementById("maior25").innerHTML = JSON.stringify(maior_de25);
             document.getElementById("menor25").innerHTML = JSON.stringify(menor_de25);
-            
         }
 
     } catch (e) {
